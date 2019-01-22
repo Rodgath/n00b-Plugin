@@ -1,2 +1,2 @@
 # n00b-Plugin
-Simple WordPress starter plugin.
+VERY SIMPLE __WordPress__ starter plugin for newbies and noobs.
