@@ -25,7 +25,7 @@
 defined('ABSPATH') || exit('No Dice!');
 
 /*
- * [Plugin Name] Main Class
+ * Main Class
  *
  */
 class n00b_Plugin_Name {
