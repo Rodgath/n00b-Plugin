@@ -31,3 +31,5 @@ defined('ABSPATH') || exit('No Dice!');
 class n00b_Plugin_Name {
 	
 }
+
+new n00b_Plugin_Name;
