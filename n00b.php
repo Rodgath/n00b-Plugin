@@ -38,6 +38,10 @@ class n00b_PluginName {
 		
 	}
 	
+	public function plugin_deactivation() {
+		
+	}
+	
 }
 
 new n00b_Plugin_Name;
