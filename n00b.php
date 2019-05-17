@@ -28,7 +28,7 @@ defined('ABSPATH') || exit('No Dice!');
  * Main Class
  *
  */
-class n00b_Plugin_Name {
+class n00b_PluginName {
 	
 	public function __construct() {
 		
