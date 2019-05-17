@@ -44,4 +44,4 @@ class n00bPluginName {
 	
 }
 
-new n00b_Plugin_Name;
+new n00bPluginName;
