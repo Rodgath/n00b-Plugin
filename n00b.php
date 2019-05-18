@@ -34,6 +34,10 @@ class n00bPluginName {
 		
 	}
 	
+	public function init() {
+		
+	}
+	
 	public function plugin_activation() {
 		
 	}
