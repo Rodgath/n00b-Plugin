@@ -33,6 +33,7 @@ class n00bPluginName {
 	public function __construct() {
 		
 		add_action( 'plugins_loaded', array($this, 'init') );
+		add_action( 'admin_menu', array($this, 'admin_menu') );
 		
 		register_activation_hook( __FILE__, array($this, 'activation') );
 		
