@@ -32,6 +32,8 @@ class n00bPluginName {
 	
 	public function __construct() {
 		
+		register_activation_hook( __FILE__, array($this, 'plugin_activation') );
+		
 	}
 	
 	public function init() {
