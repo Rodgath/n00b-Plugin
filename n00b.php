@@ -34,7 +34,7 @@ class n00bPluginName {
 		
 		add_action( 'plugins_loaded', array($this, 'init') );
 		
-		register_activation_hook( __FILE__, array($this, 'plugin_activation') );
+		register_activation_hook( __FILE__, array($this, 'activation') );
 		
 		register_deactivation_hook( __FILE__, array($this, 'plugin_deactivation') );
 		
@@ -46,7 +46,7 @@ class n00bPluginName {
 		
 	}
 	
-	public function plugin_activation() {
+	public function activation() {
 		
 	}
 	
