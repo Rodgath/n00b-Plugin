@@ -46,6 +46,10 @@ class n00bPluginName {
 		
 	}
 	
+	public function admin_menu() {
+		
+	}
+	
 	public function activation() {
 		
 	}
