@@ -34,6 +34,8 @@ class n00bPluginName {
 		
 		register_activation_hook( __FILE__, array($this, 'plugin_activation') );
 		
+		register_deactivation_hook( __FILE__, array($this, 'plugin_deactivation') );
+		
 	}
 	
 	public function init() {
