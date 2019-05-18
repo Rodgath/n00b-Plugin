@@ -42,6 +42,10 @@ class n00bPluginName {
 		
 	}
 	
+	public function plugin_uninstallation() {
+		
+	}
+	
 }
 
 new n00bPluginName;
