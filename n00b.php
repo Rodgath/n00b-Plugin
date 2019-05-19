@@ -36,14 +36,16 @@ class n00bPluginName {
 		add_action( 'admin_menu', array($this, 'admin_menu') );
 		
 		register_activation_hook( __FILE__, array($this, 'activation') );
-		
 		register_deactivation_hook( __FILE__, array($this, 'deactivation') );
-		
 		register_uninstall_hook( __FILE__, array($this, 'uninstallation') );
 		
 	}
 	
 	public function init() {
+		
+	}
+	
+	public function enqueue_scripts() {
 		
 	}
 	
