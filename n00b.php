@@ -34,6 +34,7 @@ class n00bPluginName {
 		
 		add_action( 'plugins_loaded', array($this, 'init') );
 		add_action( 'admin_menu', array($this, 'admin_menu') );
+		add_action( 'wp_enqueue_scripts', array($this, 'enqueue_scripts') );
 		
 		register_activation_hook( __FILE__, array($this, 'activation') );
 		register_deactivation_hook( __FILE__, array($this, 'deactivation') );
