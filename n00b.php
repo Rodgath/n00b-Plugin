@@ -50,6 +50,10 @@ class n00bPluginName {
 		
 	}
 	
+	public function admin_enqueue_scripts() {
+		
+	}
+	
 	public function admin_menu() {
 		
 	}
