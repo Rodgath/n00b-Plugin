@@ -8,7 +8,7 @@
  * Author URI:  [http://plugin-author-url.tld]
  * Text Domain: [plugin-name]
  * Domain Path: /languages
- * License:		GPL-2.0+
+ * License:     GPL-2.0+
  * License URI:	http://www.gnu.org/licenses/gpl-2.0.txt
  *
  * This program is free software; you can redistribute it and/or modify 
@@ -67,6 +67,13 @@ class n00bPluginName {
 		
 	}
 	
+	/**
+	 * Plugin uninstallation
+	 * Called when plugin is uninstalled
+	 * 
+	 * @since 1.0
+	 * @method plugin_uninstall
+	 */
 	public function uninstallation() {
 		
 	}
