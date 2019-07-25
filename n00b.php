@@ -81,7 +81,8 @@ class n00bPluginName {
 	
 	/**
 	 * Plugin uninstallation
-	 * This is called when plugin is uninstalled
+	 * This is called when plugin is uninstalled.
+	 * Contains all the code that should run when the plugin is unsinstalled.
 	 * 
 	 * @since 1.0
 	 */
