@@ -63,6 +63,12 @@ class n00bPluginName {
 		
 	}
 	
+	/**
+	 * Plugin deactivation
+	 * Called when plugin is deactivated
+	 * 
+	 * @since 1.0
+	 */
 	public function deactivation() {
 		
 	}
@@ -72,7 +78,6 @@ class n00bPluginName {
 	 * Called when plugin is uninstalled
 	 * 
 	 * @since 1.0
-	 * @method plugin_uninstall
 	 */
 	public function uninstallation() {
 		
