@@ -61,7 +61,7 @@ class n00bPluginName {
 	
 	/**
 	 * Plugin activation
-	 * This is called when plugin is activated
+	 * This is called when plugin is activated.
 	 * 
 	 * @since 1.0
 	 */
