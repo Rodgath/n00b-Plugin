@@ -71,7 +71,8 @@ class n00bPluginName {
 	
 	/**
 	 * Plugin deactivation
-	 * This is called when plugin is deactivated
+	 * This is called when plugin is deactivated.
+	 * Contains all the code that should run when the plugin is deactivated.
 	 * 
 	 * @since 1.0
 	 */
