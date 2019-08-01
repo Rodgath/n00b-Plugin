@@ -51,6 +51,11 @@ class n00bPluginName {
 		
 	}
 	
+	/**
+	 * Enqueue plugin admin scripts
+	 * 
+	 * @since 1.0
+	 */
 	public function admin_enqueue_scripts() {
 		
 	}
