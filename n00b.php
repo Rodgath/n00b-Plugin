@@ -47,6 +47,11 @@ class n00bPluginName {
 		
 	}
 	
+	/**
+	 * Enqueue plugin frontend scripts
+	 * 
+	 * @since 1.0
+	 */
 	public function enqueue_scripts() {
 		
 	}
