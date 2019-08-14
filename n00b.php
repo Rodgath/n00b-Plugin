@@ -43,6 +43,11 @@ class n00bPluginName {
 		
 	}
 	
+	/**
+	 * Initialize the plugin
+	 * 
+	 * @since 1.0
+	 */
 	public function init() {
 		
 	}
