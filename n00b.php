@@ -50,6 +50,9 @@ class n00bPluginName {
 	 */
 	public function init() {
 		
+		/* Load constants */
+		$this->constants();
+		
 	}
 	
 	/**
