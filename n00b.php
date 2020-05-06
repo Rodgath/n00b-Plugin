@@ -78,6 +78,13 @@ class n00bPluginName {
 	public function admin_menu() {
 		
 	}
+	
+	/**
+	 * Constants
+	 *
+	 * @since 1.0
+	 * @return void
+	 */
 	public function constants() {
 		define('N00B_URL', plugin_dir_url(__FILE__));
 		define('N00B_DIR', plugin_dir_path(__FILE__));
