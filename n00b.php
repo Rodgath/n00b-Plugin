@@ -53,6 +53,9 @@ class n00bPluginName {
 		/* Load constants */
 		$this->constants();
 		
+		/* Load the text domain for translations */
+		$this->locale();
+		
 	}
 	
 	/**
