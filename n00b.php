@@ -83,7 +83,7 @@ class n00bPluginName {
 	}
 	
 	/**
-	 * Constants
+	 * Define constants
 	 *
 	 * @since 1.0
 	 * @return void
