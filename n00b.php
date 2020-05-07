@@ -94,6 +94,15 @@ class n00bPluginName {
 	}
 	
 	/**
+	 * Set the locale for the plugin internationlization.
+	 *
+	 * @since 1.0
+	 */
+	public function locale() {
+		load_plugin_textDomain( 'plugin-name', false, N00B_DIR . 'languages/' );
+	}
+	
+	/**
 	 * Plugin activation
 	 * This is called when plugin is activated.
 	 * 
