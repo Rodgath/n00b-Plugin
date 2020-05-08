@@ -22,6 +22,9 @@
  *
  */
 
+/*
+ * Exit if accessed directly
+ */
 defined('ABSPATH') || exit('No Dice!');
 
 /*
@@ -86,7 +89,7 @@ class n00bPluginName {
 	}
 	
 	/**
-	 * Define constants
+	 * Define onstants
 	 *
 	 * @since 1.0
 	 * @return void
