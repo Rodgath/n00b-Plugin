@@ -57,7 +57,7 @@ class n00bPluginName {
 		$this->constants();
 		
 		/* Load the text domain for translations */
-		$this->locale();
+		$this->i18n();
 		
 	}
 	
@@ -104,7 +104,7 @@ class n00bPluginName {
 	 *
 	 * @since 1.0
 	 */
-	public function locale() {
+	public function i18n() {
 		load_plugin_textDomain( 'plugin-name', false, N00B_DIR . 'languages/' );
 	}
 	
