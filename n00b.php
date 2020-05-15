@@ -109,6 +109,16 @@ class n00bPluginName {
 	}
 	
 	/**
+	 * Include and load files needed by the plugin
+	 *
+	 * @since 1.0
+	 * @return void
+	 */
+	public function includes() {
+		
+	}
+	
+	/**
 	 * Plugin activation
 	 * This is called when plugin is activated.
 	 * 
