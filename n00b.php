@@ -59,6 +59,9 @@ class n00bPluginName {
 		/* Load the text domain for translations */
 		$this->i18n();
 		
+		/* Load files needed by the plugin */
+		$this->includes();
+		
 	}
 	
 	/**
@@ -109,7 +112,7 @@ class n00bPluginName {
 	}
 	
 	/**
-	 * Include and load files needed by the plugin
+	 * Plugin includes
 	 *
 	 * @since 1.0
 	 * @return void
