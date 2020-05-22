@@ -115,10 +115,9 @@ class n00bPluginName {
 	}
 
 	/**
-	 * Admin functions
-	 * Admin options panel, metabox options etc
+	 * Admin functions - Options panel, metabox options etc
 	 *
-	 * @since  0.1.0
+	 * @since 1.0
 	 */
 	public function backend() {
 		
