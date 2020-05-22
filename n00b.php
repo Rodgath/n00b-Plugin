@@ -59,6 +59,9 @@ class n00bPluginName {
 		/* Load the text domain for translations */
 		$this->i18n();
 		
+		/* Load admin functions */
+		$this->backend();
+		
 		/* Load files needed by the plugin */
 		$this->includes();
 		
@@ -112,7 +115,8 @@ class n00bPluginName {
 	}
 
 	/**
-	 * Backend functions
+	 * Admin functions
+	 * Admin options panel, metabox options etc
 	 *
 	 * @since  0.1.0
 	 */
