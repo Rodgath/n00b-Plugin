@@ -98,8 +98,8 @@ class n00bPluginName {
 	 * @return void
 	 */
 	public function constants() {
-		define('N00B_URL', plugin_dir_url(__FILE__));
-		define('N00B_DIR', plugin_dir_path(__FILE__));
+		define('N00B_URL', trailingslashit(plugin_dir_url(__FILE__)));
+		define('N00B_DIR', trailingslashit(plugin_dir_path(__FILE__)));
 	}
 	
 	/**
