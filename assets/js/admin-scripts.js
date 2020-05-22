@@ -1,1 +1,1 @@
-/* Initial admin script */
+/* Initial admin scripts */
