@@ -117,8 +117,7 @@ class n00bPluginName {
 	 * @since  0.1.0
 	 */
 	public function backend() {
-		require_once( TJTC_ADMIN . 'admin.php' );
-		require_once( TJTC_ADMIN . 'metabox.php' );
+		
 	}
 	
 	/**
