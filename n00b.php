@@ -110,6 +110,16 @@ class n00bPluginName {
 	public function i18n() {
 		load_plugin_textDomain( 'plugin-name', false, N00B_DIR . 'languages/' );
 	}
+
+	/**
+	 * Backend functions
+	 *
+	 * @since  0.1.0
+	 */
+	public function backend() {
+		require_once( TJTC_ADMIN . 'admin.php' );
+		require_once( TJTC_ADMIN . 'metabox.php' );
+	}
 	
 	/**
 	 * Plugin includes
