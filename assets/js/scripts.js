@@ -1,1 +1,1 @@
-/* Initial frontend script */
+/* Initial frontend scripts */
