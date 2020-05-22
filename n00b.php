@@ -112,15 +112,6 @@ class n00bPluginName {
 	}
 
 	/**
-	 * Frontend functions
-	 *
-	 * @since  0.1.0
-	 */
-	public function frontend() {
-		
-	}
-
-	/**
 	 * Backend functions
 	 *
 	 * @since  0.1.0
