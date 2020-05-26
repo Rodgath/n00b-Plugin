@@ -98,7 +98,7 @@ class n00bPluginName {
 		wp_enqueue_script('n00b-admin-script', N00B_URL . 'assets/js/admin-script.js', array('jquery'), null, true);
 
 		/* Admin script localization */
-		wp_localize_script('n00b-admin-script', 'n00b_l10n',
+		wp_localize_script('n00b-admin-script', 'n00b_admin_l10n',
 			array(
 				'site_name'  => __('n00b Site', 'plugin-text-domain'),
 				'n00b_url' => N00B_URL,
