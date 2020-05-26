@@ -79,6 +79,16 @@ class n00bPluginName {
 
 		/* Frontend scripts */
 		wp_enqueue_script('n00b-script', N00B_URL . 'assets/js/script.js', array('jquery'), null, true);
+
+		/* Frontend script localization */
+		wp_localize_script('n00b-script', 'n00b_l10n',
+			array(
+				'site_name'  => __('n00b Site', 'plugin-text-domain'),
+				'n00b_url' => N00B_URL,
+				'n00b_dir' => N00B_DIR,
+				'site_url' => site_url(),
+			)
+		);
 	}
 	
 	/**
