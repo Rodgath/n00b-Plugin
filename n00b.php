@@ -74,6 +74,8 @@ class n00bPluginName {
 	 */
 	public function enqueue_scripts() {
 
+		/* Frontend styles */
+		wp_enqueue_style('n00b-style', N00B_URL . 'assets/css/style.css' );
 	}
 	
 	/**
@@ -90,7 +92,7 @@ class n00bPluginName {
 		wp_enqueue_style('n00b-admin-style', N00B_URL . 'assets/css/admin-style.css', null, null);
 
 		/* Admin scripts */
-		wp_enqueue_script('n00b-admin-script', N00B_URL . 'assets/js/admin-script.js', array('jquery'), null, true );
+		wp_enqueue_script('n00b-admin-script', N00B_URL . 'assets/js/admin-script.js', array('jquery'), null, true);
 
 		/* Admin script localization */
 		wp_localize_script('n00b-admin-script', 'n00b_l10n',
