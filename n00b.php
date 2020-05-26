@@ -73,7 +73,7 @@ class n00bPluginName {
 	 * @since 1.0
 	 */
 	public function enqueue_scripts() {
-		
+
 	}
 	
 	/**
@@ -87,13 +87,13 @@ class n00bPluginName {
 		if ('portfolio' != get_current_screen()->post_type) return;
 
 		/* Admin styles */
-		wp_enqueue_style('n00b-style', N00B_URL . 'assets/css/admin-style.css', null, null);
+		wp_enqueue_style('n00b-admin-style', N00B_URL . 'assets/css/admin-style.css', null, null);
 
 		/* Admin scripts */
-		wp_enqueue_script('n00b-script', N00B_URL . 'assets/js/admin-script.js', array('jquery'), null, true );
+		wp_enqueue_script('n00b-admin-script', N00B_URL . 'assets/js/admin-script.js', array('jquery'), null, true );
 
 		/* Admin script localization */
-		wp_localize_script('n00b-script', 'n00b_l10n',
+		wp_localize_script('n00b-admin-script', 'n00b_l10n',
 			array(
 				'site_name'  => __('n00b Site', 'plugin-text-domain'),
 				'n00b_url' => N00B_URL,
