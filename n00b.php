@@ -85,6 +85,9 @@ class n00bPluginName {
 
 		/* Ensure that the scripts load only in portfolio post type page */
 		if ('portfolio' != get_current_screen()->post_type) return;
+
+		/* Admin styles */
+		wp_enqueue_style('n00b-style', N00B_URL . 'assets/css/admin-styles.css', null, null);
 	}
 	
 	/**
