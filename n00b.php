@@ -76,6 +76,9 @@ class n00bPluginName {
 
 		/* Frontend styles */
 		wp_enqueue_style('n00b-style', N00B_URL . 'assets/css/style.css' );
+
+		/* Frontend scripts */
+		wp_enqueue_script('n00b-script', N00B_URL . 'assets/js/script.js', array('jquery'), null, true);
 	}
 	
 	/**
