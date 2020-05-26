@@ -87,7 +87,10 @@ class n00bPluginName {
 		if ('portfolio' != get_current_screen()->post_type) return;
 
 		/* Admin styles */
-		wp_enqueue_style('n00b-style', N00B_URL . 'assets/css/admin-styles.css', null, null);
+		wp_enqueue_style('n00b-style', N00B_URL . 'assets/css/admin-style.css', null, null);
+
+		/* Admin scripts */
+		wp_enqueue_script('n00b-script', N00B_URL . 'assets/js/admin-script.js', array('jquery'), null, true );
 	}
 	
 	/**
