@@ -82,7 +82,9 @@ class n00bPluginName {
 	 * @since 1.0
 	 */
 	public function admin_enqueue_scripts() {
-		
+
+		/* Ensure that the scripts load only in portfolio post type page */
+		if ('portfolio' != get_current_screen()->post_type) return;
 	}
 	
 	/**
