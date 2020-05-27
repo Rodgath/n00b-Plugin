@@ -75,7 +75,7 @@ class n00bPluginName {
 	public function enqueue_scripts() {
 
 		/* Frontend styles */
-		wp_enqueue_style('n00b-style', N00B_URL . 'assets/css/style.css' );
+		wp_enqueue_style('n00b-style', N00B_URL . 'assets/css/style.css');
 
 		/* Frontend scripts */
 		wp_enqueue_script('n00b-script', N00B_URL . 'assets/js/script.js', array('jquery'), null, true);
@@ -113,7 +113,7 @@ class n00bPluginName {
 				'site_name'  => __('n00b Site', 'plugin-text-domain'),
 				'n00b_url' => N00B_URL,
 				'n00b_dir' => N00B_DIR,
-				'site_url' => site_url(),
+				'admin_url' => admin_url(),
 			)
 		);
 	}
@@ -144,7 +144,7 @@ class n00bPluginName {
 	 * @since 1.0
 	 */
 	public function i18n() {
-		load_plugin_textDomain( 'plugin-name', false, N00B_DIR . 'languages/' );
+		load_plugin_textDomain('plugin-name', false, N00B_DIR . 'languages/');
 	}
 
 	/**
