@@ -49,7 +49,7 @@ function n00b_portfolio_post_type() {
 		'show_ui'            => true,
 		'show_in_menu'       => true,
 		'query_var'          => true,
-		'rewrite'            => array( 'slug' => 'project' ),
+		'rewrite'            => array( 'slug' => 'portfolio' ),
 		'capability_type'    => 'post',
 		'has_archive'        => true,
 		'hierarchical'       => false,
@@ -60,3 +60,7 @@ function n00b_portfolio_post_type() {
 	
 	register_post_type('portfolio', $args);
 }
+
+
+
+/* TO DO: Register taxonomy */
