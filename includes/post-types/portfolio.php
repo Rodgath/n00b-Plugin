@@ -54,6 +54,7 @@ function n00b_portfolio_post_type() {
 		'has_archive'        => true,
 		'hierarchical'       => false,
 		'menu_position'      => null,
+		'menu_icon'          => 'dashicons-portfolio',
 		'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
 	);
 	
