@@ -64,6 +64,19 @@ function n00b_portfolio_post_type() {
 }
 
 
+/**
+ * Hook into 'init' action to register custom taxonomy.
+ */
 add_action( 'init', 'n00b_register_taxonomy', 0 );
 
-function n00b_register_taxonomy() {}
+
+/**
+ * Function to register custom taxonomy.
+ * 
+ * Register a custom post type called "portoflio-category".
+ *
+ * @see get_taxonomy_labels($tax) for label keys.
+ */
+function n00b_register_taxonomy() {
+	
+}
