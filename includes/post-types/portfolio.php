@@ -80,28 +80,29 @@ add_action( 'init', 'n00b_register_taxonomy', 0 );
 function n00b_register_taxonomy() {
 	
 	$labels = array(
-		'name' => _x( 'Categories', 'taxonomy general name', 'plugin-text-domain' ),
-		'singular_name' => _x( 'Category', 'taxonomy singular name', 'plugin-text-domain' ),
-		'search_items' => __( 'Search Categories', 'plugin-text-domain' ),
-		'all_items' => __( 'All Categories', 'plugin-text-domain' ),
-		'parent_item' => __( 'Parent Category', 'plugin-text-domain' ),
+		'name'              => _x( 'Categories', 'taxonomy general name', 'plugin-text-domain' ),
+		'singular_name'     => _x( 'Category', 'taxonomy singular name', 'plugin-text-domain' ),
+		'search_items'      => __( 'Search Categories', 'plugin-text-domain' ),
+		'all_items'         => __( 'All Categories', 'plugin-text-domain' ),
+		'parent_item'       => __( 'Parent Category', 'plugin-text-domain' ),
 		'parent_item_colon' => __( 'Parent Category:', 'plugin-text-domain' ),
-		'edit_item' => __( 'Edit Category', 'plugin-text-domain' ),
-		'view_item' => __( 'View Category', 'plugin-text-domain' ),
-		'update_item' => __( 'Update Category', 'plugin-text-domain' ),
-		'add_new_item' => __( 'Add New Category', 'plugin-text-domain' ),
-		'new_item_name' => __( 'New Category Name', 'plugin-text-domain' ),
-		'menu_name' => __( 'Category', 'plugin-text-domain' ),
-		'not_found' => __( 'No categories found.', 'plugin-text-domain' ),
+		'edit_item'         => __( 'Edit Category', 'plugin-text-domain' ),
+		'view_item'         => __( 'View Category', 'plugin-text-domain' ),
+		'update_item'       => __( 'Update Category', 'plugin-text-domain' ),
+		'add_new_item'      => __( 'Add New Category', 'plugin-text-domain' ),
+		'new_item_name'     => __( 'New Category Name', 'plugin-text-domain' ),
+		'menu_name'         => __( 'Category', 'plugin-text-domain' ),
+		'not_found'         => __( 'No categories found.', 'plugin-text-domain' ),
+		'no_terms'          => __( 'No categories.', 'plugin-text-domain' ),
 	);
 
 	$args = array(
-		'labels' => $labels,
-		'hierarchical' => true,
-		'show_ui' => true,
+		'labels'            => $labels,
+		'hierarchical'      => true,
+		'show_ui'           => true,
 		'show_admin_column' => true,
-		'query_var' => true,
-		'rewrite' => array( 'slug' => 'portfolio-category' ),
+		'query_var'         => true,
+		'rewrite'           => array( 'slug' => 'portfolio-category' ),
 	);
 
 	register_taxonomy( 'portfolio-category', array( 'portfolio' ), $args );
