@@ -64,5 +64,6 @@ function n00b_portfolio_post_type() {
 }
 
 
+add_action( 'init', 'n00b_register_taxonomy', 0 );
 
-/* TO DO: Register taxonomy */
+function n00b_register_taxonomy() {}
